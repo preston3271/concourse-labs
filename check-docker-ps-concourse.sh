@@ -1,5 +1,5 @@
 #!/bin/bash
 set -x
 
-sudo netstat -pna | grep 8080
+netstat -pna | grep 8080
 
